@@ -24,6 +24,4 @@ pyFoamCopyLastToFirst.py . . > log.pyFoamCopyLastToFirst
 
 pyFoamClearCase.py . --processors-remove --keep-postprocessing > log.pyFoamClearCase
 
-postProcess -func "add(C1, C2, C3, C4)" > log.add 2>&1
 
-postProcess -func sampleDictConcentration > log.sampleConcentration 2>&1
